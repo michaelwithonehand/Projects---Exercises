@@ -208,7 +208,11 @@ def ex3():
     
 def main():     
     clear()
-    print("Laborator Nr.2 - Tehnici de Programare")
+    print("     Laborator Nr.2 - Tehnici de Programare\n")
+    print("1. Ex 1: Operatii aritmetice\n")
+    print("2. Ex 2: Algoritmi si programe pentru ecuatii\n")
+    print("3. Ex 3: Exercitiu de sinteza\n")
+    
     match int(input("Alege exrcitiul de laborator (1-3): ")):
         case 1: ex1()
         case 2: ex2()
