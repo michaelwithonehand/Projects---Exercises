@@ -66,7 +66,7 @@ def ex1():
     print ("1.1 Citirea a doua numere reale si efectuarea urmatoarelor operatii aritmetice: \n")
     print ("    (Suma lor; Produsul lor; Maximul dintre ele;)\n")
     print ("1.2 Citirea unui numar si verifiica daca este par sau impar;\n")
-    print ("1.3 Aisarea tuturor numerelor de la 1 la n utilizand bucla 'for'")
+    print ("1.3 Aisarea tuturor numerelor de la 1 la n utilizand bucla 'for'\n")
     print ("1.4 Calculeaza suma numerelor de la 1 la n folosind while\n")
     match int(input("Alege exercitiul (1-4) | 0 - Return: ")):
         case 1: ex1_1()
@@ -74,7 +74,7 @@ def ex1():
         case 3: ex1_3()
         case 4: ex1_4()
         case 0: main()
-        case _: print("Exercitiu invalid. Te rog alege un numar intre 1 si 4.")
+        case _: print("Optiune invalida. Te rog alege un numar intre 0 si 4.")
     
 
 
@@ -139,7 +139,7 @@ def ex2():
         case 1: ex2_1()
         case 2: ex2_2()
         case 0: main()
-        case _: print("Exercitiu invalid. Te rog alege un numar intre 1 si 2.")
+        case _: print("Optiune invalida. Te rog alege un numar intre 0 si 2.")
 
 def ex3_1():
     clear()
@@ -219,7 +219,7 @@ def main():
         case 2: ex2()
         case 3: ex3()
         case 0: exit()
-        case _: print("Numar invalid. Te rog alege un numar intre 0 si 3.")
+        case _: print("Optiune invalida. Te rog alege un numar intre 0 si 3.")
     
 
 if __name__ == "__main__":
