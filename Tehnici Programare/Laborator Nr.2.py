@@ -144,7 +144,7 @@ def ex2():
 def ex3_1():
     clear()
     while True:
-        print("Meniu Ecuatii:")
+        print("\nMeniu Ecuatii:")
         print("1. Ecuatia de gradul I: ax + b = 0")
         print("2. Ecuatia de gradul II: ax^2 + bx + c = 0")
         print("0. Returnare la pagina exercitiului")
@@ -212,12 +212,14 @@ def main():
     print("1. Ex 1: Operatii aritmetice\n")
     print("2. Ex 2: Algoritmi si programe pentru ecuatii\n")
     print("3. Ex 3: Exercitiu de sinteza\n")
+    print("0. Iesire\n")
     
     match int(input("Alege exrcitiul de laborator (1-3): ")):
         case 1: ex1()
         case 2: ex2()
         case 3: ex3()
-        case _: print("Exercitiu invalid. Te rog alege un numar intre 1 si 3.")
+        case 0: exit()
+        case _: print("Numar invalid. Te rog alege un numar intre 0 si 3.")
     
 
 if __name__ == "__main__":
